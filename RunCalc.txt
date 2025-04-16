@@ -1,0 +1,8 @@
+1 ==> CMD 
+2 ==> WSL 
+3 ==> cd C:\Users\Hamza Béji\Downloads\calc\calc
+5 ==> bison -d calc.y    # Produces calc.tab.c and calc.tab.h
+6 ==> flex calc.l        # Produces lex.yy.c
+7==> gcc calc.tab.c lex.yy.c -o calc -lm
+# Run
+8 ==> ./calc
